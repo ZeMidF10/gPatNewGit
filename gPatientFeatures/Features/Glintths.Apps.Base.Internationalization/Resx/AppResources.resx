@@ -1,0 +1,2229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActualPosition" xml:space="preserve">
+    <value>Posição atual</value>
+  </data>
+  <data name="CalculateGPS" xml:space="preserve">
+    <value>A calcular localização GPS...</value>
+  </data>
+  <data name="GPSButton" xml:space="preserve">
+    <value>GPS</value>
+  </data>
+  <data name="LoginButton" xml:space="preserve">
+    <value>Entrar</value>
+  </data>
+  <data name="outroButton" xml:space="preserve">
+    <value>Teste</value>
+  </data>
+  <data name="UnavailableGPS" xml:space="preserve">
+    <value>Impossível aceder à sua localização</value>
+  </data>
+  <data name="ValidGPS" xml:space="preserve">
+    <value>Localização GPS válida</value>
+  </data>
+  <data name="AboutMenu" xml:space="preserve">
+    <value>Sobre</value>
+  </data>
+  <data name="Act" xml:space="preserve">
+    <value>Ato</value>
+  </data>
+  <data name="ActsEndedForTodayQuestion" xml:space="preserve">
+    <value>Confirma que já finalizou todos os atos marcados para o dia de hoje?</value>
+  </data>
+  <data name="ActsForToday" xml:space="preserve">
+    <value>Atos para hoje</value>
+  </data>
+  <data name="Admited" xml:space="preserve">
+    <value>Admitido</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>Todos</value>
+  </data>
+  <data name="AllCompanies" xml:space="preserve">
+    <value>Todas as empresas</value>
+  </data>
+  <data name="AllPatients" xml:space="preserve">
+    <value>Todos</value>
+  </data>
+  <data name="AllServices" xml:space="preserve">
+    <value>Todos os Serviços</value>
+  </data>
+  <data name="AllTypes" xml:space="preserve">
+    <value>Todos os tipos</value>
+  </data>
+  <data name="AnalsysResDetails" xml:space="preserve">
+    <value>Detalhe resultados análises</value>
+  </data>
+  <data name="Appointment" xml:space="preserve">
+    <value>Marcação</value>
+  </data>
+  <data name="AppointmentsHistoryMenu" xml:space="preserve">
+    <value>Histórico de Marcações</value>
+  </data>
+  <data name="AppointmentsLabel" xml:space="preserve">
+    <value>Consultas</value>
+  </data>
+  <data name="AppointmentsMenu" xml:space="preserve">
+    <value>Marcações</value>
+  </data>
+  <data name="AprAcr" xml:space="preserve">
+    <value>Abr</value>
+  </data>
+  <data name="AssumePatient" xml:space="preserve">
+    <value>Assumir Doente</value>
+  </data>
+  <data name="Atm" xml:space="preserve">
+    <value>MultiBanco</value>
+  </data>
+  <data name="AugAcr" xml:space="preserve">
+    <value>Ago</value>
+  </data>
+  <data name="AuthenticationProblemsLogo" xml:space="preserve">
+    <value>Em caso de problemas de autenticação visite</value>
+  </data>
+  <data name="BirthDate" xml:space="preserve">
+    <value>Data Nascimento</value>
+  </data>
+  <data name="BrigadeSearch" xml:space="preserve">
+    <value>pesquisa da brigada/local</value>
+  </data>
+  <data name="Calendar" xml:space="preserve">
+    <value>Calendário</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="CannotFindPatientFile" xml:space="preserve">
+    <value>Ficha de cliente não encontrada. Por favor, contacte o contact center</value>
+  </data>
+  <data name="CannotScheduleAppt" xml:space="preserve">
+    <value>Não é possível efetuar marcações.</value>
+  </data>
+  <data name="CardExpiredDateRequired" xml:space="preserve">
+    <value>É necessário preencher a data de expiração do cartão.</value>
+  </data>
+  <data name="CardNumber" xml:space="preserve">
+    <value>Número do cartão</value>
+  </data>
+  <data name="CardNumberInvalid" xml:space="preserve">
+    <value>Número do cartão inválido</value>
+  </data>
+  <data name="Cellphone" xml:space="preserve">
+    <value>Telemóvel</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Alterar Senha</value>
+  </data>
+  <data name="ChangeProfilePicture" xml:space="preserve">
+    <value>Alterar imagem do perfil</value>
+  </data>
+  <data name="CheckInMenu" xml:space="preserve">
+    <value>Check-In</value>
+  </data>
+  <data name="CleanSelectionLabel" xml:space="preserve">
+    <value>Limpar seleção</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>Código</value>
+  </data>
+  <data name="Conclude" xml:space="preserve">
+    <value>Concluir</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Confirmar</value>
+  </data>
+  <data name="ConfirmAppt" xml:space="preserve">
+    <value>Confirmar Marcação</value>
+  </data>
+  <data name="ConfirmAuthAndDef" xml:space="preserve">
+    <value>Confirme os seus dados e defina a sua autenticação</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>Confirme senha</value>
+  </data>
+  <data name="ConfirmUserEmail" xml:space="preserve">
+    <value>Confirmar Utilizador (E-mail)</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>Contato</value>
+  </data>
+  <data name="ContactRequest" xml:space="preserve">
+    <value>Pedido de Contato</value>
+  </data>
+  <data name="ContactsMenu" xml:space="preserve">
+    <value>Contatos</value>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>Enviar</value>
+  </data>
+  <data name="CouldNotCheckPayment" xml:space="preserve">
+    <value>Não foi possível consultar o pagamento</value>
+  </data>
+  <data name="CouldNotCompleteReg" xml:space="preserve">
+    <value>Não foi possível completar o registo. Por favor tente mais tarde.</value>
+  </data>
+  <data name="CouldNotConfirmPayment" xml:space="preserve">
+    <value>Não foi possível confirmar o pagamento</value>
+  </data>
+  <data name="CouldNotLoadExams" xml:space="preserve">
+    <value>Não foi possível carregar os exames</value>
+  </data>
+  <data name="CouldNotLoadInvoices" xml:space="preserve">
+    <value>Não foi possível carregar as faturas</value>
+  </data>
+  <data name="CouldNotLoadInvoicesFromService" xml:space="preserve">
+    <value>Não foi possível carregar as faturas do serviço</value>
+  </data>
+  <data name="CouldNotLoadPaymentUrl" xml:space="preserve">
+    <value>Não foi possível carregar o Url para pagamento</value>
+  </data>
+  <data name="CouldNotObtainIncome" xml:space="preserve">
+    <value>Não é possível obter os honorário do médico.</value>
+  </data>
+  <data name="CouldNotObtainMaxAndMin" xml:space="preserve">
+    <value>Não é possível obter as datas minimas e máximas dos honorários do médico.</value>
+  </data>
+  <data name="CouldNotObtainPatHis" xml:space="preserve">
+    <value>Não é possível obter o resumo clinico do paciente.</value>
+  </data>
+  <data name="CouldNotObtainPayToken" xml:space="preserve">
+    <value>Não foi possível obter o token para o pagamento</value>
+  </data>
+  <data name="CouldNotObtainPayUrl" xml:space="preserve">
+    <value>Não foi possível obter o Url para o pagamento</value>
+  </data>
+  <data name="CouldNotSelectItem" xml:space="preserve">
+    <value>Erro: Não foi possível selecionar o item</value>
+  </data>
+  <data name="Curriculum" xml:space="preserve">
+    <value>Curriculum</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="Days" xml:space="preserve">
+    <value>dias</value>
+  </data>
+  <data name="DaysToDonate" xml:space="preserve">
+    <value>para voltar a dar sangue faltam:</value>
+  </data>
+  <data name="DecAcr" xml:space="preserve">
+    <value>Dez</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Descrição</value>
+  </data>
+  <data name="DifAreas" xml:space="preserve">
+    <value>Áreas de diferenciação</value>
+  </data>
+  <data name="DirectionsItemList" xml:space="preserve">
+    <value>Como Chegar</value>
+  </data>
+  <data name="DoctorAppointmentsTitle" xml:space="preserve">
+    <value>Agenda</value>
+  </data>
+  <data name="DonationHistory" xml:space="preserve">
+    <value>Histórico de dádivas</value>
+  </data>
+  <data name="DonationProcess" xml:space="preserve">
+    <value>Processo de dádiva</value>
+  </data>
+  <data name="Donations" xml:space="preserve">
+    <value>Doações</value>
+  </data>
+  <data name="EFR" xml:space="preserve">
+    <value>EFR</value>
+  </data>
+  <data name="EfrLabel" xml:space="preserve">
+    <value>Acordo</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="EmailAddress" xml:space="preserve">
+    <value>Endereço de email</value>
+  </data>
+  <data name="EndScheduling" xml:space="preserve">
+    <value>Finalizar marcação</value>
+  </data>
+  <data name="EnterTextToSearch" xml:space="preserve">
+    <value>Insira algum texto para realizar a pesquisa...</value>
+  </data>
+  <data name="EnterTextToSearchHarvest" xml:space="preserve">
+    <value>Insira o nome, distrito ou morada do posto de colheita a pesquisar...</value>
+  </data>
+  <data name="Entity" xml:space="preserve">
+    <value>Entidade</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Erro</value>
+  </data>
+  <data name="ErrorNearestBalcony" xml:space="preserve">
+    <value>Erro ao realizar o check-in. Por favor dirija-se ao balcão mais próximo.</value>
+  </data>
+  <data name="ErrorUpper" xml:space="preserve">
+    <value>ERRO</value>
+  </data>
+  <data name="EstimatedHour" xml:space="preserve">
+    <value>Hora estimada</value>
+  </data>
+  <data name="ExamsResultsMenu" xml:space="preserve">
+    <value>Resultados Exames</value>
+  </data>
+  <data name="ExpireDateFailVerify" xml:space="preserve">
+    <value>Não foi possível validar a data de expiração</value>
+  </data>
+  <data name="ExpiredCardDate" xml:space="preserve">
+    <value>A validade do cartão já expirou</value>
+  </data>
+  <data name="ExpiringDate" xml:space="preserve">
+    <value>Data de validade</value>
+  </data>
+  <data name="ExpiringDateMonthPlaceholder" xml:space="preserve">
+    <value>MM</value>
+  </data>
+  <data name="ExpiringDateYearPlaceholder" xml:space="preserve">
+    <value>AAAA</value>
+  </data>
+  <data name="FacilitiesMenu" xml:space="preserve">
+    <value>Unidades</value>
+  </data>
+  <data name="FailDownloadFile" xml:space="preserve">
+    <value>Não foi possível descarregar o arquivo.</value>
+  </data>
+  <data name="FailGetLoginData" xml:space="preserve">
+    <value>Não foi possível efectuar a autenticação.</value>
+  </data>
+  <data name="FailGetNotificationsList" xml:space="preserve">
+    <value>Não foi possível obter a lista de notificações</value>
+  </data>
+  <data name="FailGetResults" xml:space="preserve">
+    <value>Não foi possível obter resultados</value>
+  </data>
+  <data name="FailGetResultsList" xml:space="preserve">
+    <value>Não foi possível obter a lista de resultados</value>
+  </data>
+  <data name="FailOpenFile" xml:space="preserve">
+    <value>Erro ao abrir o arquivo.</value>
+  </data>
+  <data name="FailOpenPDF" xml:space="preserve">
+    <value>Falha ao abrir o pdf</value>
+  </data>
+  <data name="FailOpenPDFApp" xml:space="preserve">
+    <value>É necessário instalar uma aplicação para ler PDFS...</value>
+  </data>
+  <data name="FailScheduleAppointment" xml:space="preserve">
+    <value>Não foi possível realizar a marcação</value>
+  </data>
+  <data name="FebAcr" xml:space="preserve">
+    <value>Fev</value>
+  </data>
+  <data name="FillTheForm" xml:space="preserve">
+    <value>Preencha todos os campos necessários.</value>
+  </data>
+  <data name="FinalStepTitle" xml:space="preserve">
+    <value>Finalize a marcação</value>
+  </data>
+  <data name="FinancialEntities" xml:space="preserve">
+    <value>Entidades Financeiras</value>
+  </data>
+  <data name="FinancialEntitiesItemList" xml:space="preserve">
+    <value>Acordos</value>
+  </data>
+  <data name="FirstPartLogo" xml:space="preserve">
+    <value>SABEMOS</value>
+  </data>
+  <data name="FirstStepInfoMessage" xml:space="preserve">
+    <value>Se pretende fazer uma marcação para outra instituição Lusiadas por favor contacte-nos pelo número</value>
+  </data>
+  <data name="FirstStepTitle" xml:space="preserve">
+    <value>Selecione uma unidade</value>
+  </data>
+  <data name="Friday" xml:space="preserve">
+    <value>Sexta-feira</value>
+  </data>
+  <data name="FromLabel" xml:space="preserve">
+    <value>A partir de</value>
+  </data>
+  <data name="FutureTab" xml:space="preserve">
+    <value>Próximas</value>
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>Género</value>
+  </data>
+  <data name="GetAppointmentsHistoryFail" xml:space="preserve">
+    <value>Não é possível consultar a agenda.</value>
+  </data>
+  <data name="GetExamsResultsFail" xml:space="preserve">
+    <value>Erro ao abrir lista de exames.</value>
+  </data>
+  <data name="GetFacilitiesError" xml:space="preserve">
+    <value>Não foi possível obter lista de hospitais e clínicas.</value>
+  </data>
+  <data name="GetFinancialEntitiesError" xml:space="preserve">
+    <value>Não foi possível obter a lista de EFRs.</value>
+  </data>
+  <data name="GetMedicalActsError" xml:space="preserve">
+    <value>Não foi possível obter a lista de atos médicos.</value>
+  </data>
+  <data name="GetMedicInfoError" xml:space="preserve">
+    <value>Não foi possível obter informação do médico.</value>
+  </data>
+  <data name="GetMedicsListError" xml:space="preserve">
+    <value>Não foi possível obter a lista dos médicos.</value>
+  </data>
+  <data name="GetNotificationsFail" xml:space="preserve">
+    <value>Não é possível consultar as notificações.</value>
+  </data>
+  <data name="GetSpecialtiesError" xml:space="preserve">
+    <value>Não foi possível obter lista de especialidades.</value>
+  </data>
+  <data name="GetSpecialtyError" xml:space="preserve">
+    <value>Não foi possível obter especialidade.</value>
+  </data>
+  <data name="HarvestStationsMenu" xml:space="preserve">
+    <value>Postos de Colheita</value>
+  </data>
+  <data name="HealthRouteMenu" xml:space="preserve">
+    <value>Rota Saúde </value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>Altura</value>
+  </data>
+  <data name="Hello" xml:space="preserve">
+    <value>Olá</value>
+  </data>
+  <data name="HomeMenu" xml:space="preserve">
+    <value>Início</value>
+  </data>
+  <data name="HomologousComparison" xml:space="preserve">
+    <value>Comparação Homologa</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>horas</value>
+  </data>
+  <data name="IdCardNumber" xml:space="preserve">
+    <value>NºBI/Cartão Cidadão</value>
+  </data>
+  <data name="IncomeByCompanyMenu" xml:space="preserve">
+    <value>Honorários Instituição</value>
+  </data>
+  <data name="IncomePageTitle" xml:space="preserve">
+    <value>Honorários</value>
+  </data>
+  <data name="InputEmailIsInvalid" xml:space="preserve">
+    <value>O email que introduziu é inválido</value>
+  </data>
+  <data name="InsuficentCharacters" xml:space="preserve">
+    <value>Caracteres insuficientes para a pesquisa</value>
+  </data>
+  <data name="InvalidCellPhone" xml:space="preserve">
+    <value>Telefone Inválido</value>
+  </data>
+  <data name="InvalidCode" xml:space="preserve">
+    <value>Código inválido</value>
+  </data>
+  <data name="InvalidCredentials" xml:space="preserve">
+    <value>Utilizador/Senha inválidos.</value>
+  </data>
+  <data name="InvalidDescription" xml:space="preserve">
+    <value>Descrição Inválida</value>
+  </data>
+  <data name="InvalidEmail" xml:space="preserve">
+    <value>Email inválido</value>
+  </data>
+  <data name="InvalidExpireDate" xml:space="preserve">
+    <value>Data de expiração inválida</value>
+  </data>
+  <data name="InvalidFormError" xml:space="preserve">
+    <value>As respostas dadas ao formulário não lhe permitem doar sangue. Para mais informações consulte os nossos serviços.</value>
+  </data>
+  <data name="InvalidInput" xml:space="preserve">
+    <value>Dados inseridos são inválidos.</value>
+  </data>
+  <data name="InvalidName" xml:space="preserve">
+    <value>Nome Inválido</value>
+  </data>
+  <data name="InvalidPinNumber" xml:space="preserve">
+    <value>PIN inválido!</value>
+  </data>
+  <data name="InvalidUser" xml:space="preserve">
+    <value>Utilizador inválido</value>
+  </data>
+  <data name="Invoice" xml:space="preserve">
+    <value>Fatura</value>
+  </data>
+  <data name="InvoiceMenu" xml:space="preserve">
+    <value>Faturas</value>
+  </data>
+  <data name="JanAcr" xml:space="preserve">
+    <value>Jan</value>
+  </data>
+  <data name="JulAcr" xml:space="preserve">
+    <value>Jul</value>
+  </data>
+  <data name="JunAcr" xml:space="preserve">
+    <value>Jun</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>A carregar...</value>
+  </data>
+  <data name="LoadingEmptySchedules" xml:space="preserve">
+    <value>A carregar vagas...</value>
+  </data>
+  <data name="LoadingEmptySchedulesError" xml:space="preserve">
+    <value>Erro a carregar vagas.</value>
+  </data>
+  <data name="LoadingPleaseWait" xml:space="preserve">
+    <value>A carregar, por favor aguarde...</value>
+  </data>
+  <data name="Local" xml:space="preserve">
+    <value>Local</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Entrar</value>
+  </data>
+  <data name="LoginFail" xml:space="preserve">
+    <value>Login falhou.</value>
+  </data>
+  <data name="LoginFailMoreInfo" xml:space="preserve">
+    <value>Se o problema persistir clique aqui.</value>
+  </data>
+  <data name="LoginLabel" xml:space="preserve">
+    <value>Entrar</value>
+  </data>
+  <data name="LogoutMenu" xml:space="preserve">
+    <value>Sair</value>
+  </data>
+  <data name="Map" xml:space="preserve">
+    <value>Mapa</value>
+  </data>
+  <data name="MarAcr" xml:space="preserve">
+    <value>Mar</value>
+  </data>
+  <data name="MasterMenuTitle" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="MayAcr" xml:space="preserve">
+    <value>Mai</value>
+  </data>
+  <data name="MedicalActsNoResults" xml:space="preserve">
+    <value>Sem resultados de atos médicos para a sua pesquisa</value>
+  </data>
+  <data name="MedicalSummary" xml:space="preserve">
+    <value>Resumo Clinico</value>
+  </data>
+  <data name="MedicLabel" xml:space="preserve">
+    <value>Médico</value>
+  </data>
+  <data name="MedicsItemList" xml:space="preserve">
+    <value>Médicos</value>
+  </data>
+  <data name="MedicsNoResults" xml:space="preserve">
+    <value>Sem resultados de médicos para a sua pesquisa</value>
+  </data>
+  <data name="MedicToDefine" xml:space="preserve">
+    <value>Médico a definir</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>minutos</value>
+  </data>
+  <data name="Monday" xml:space="preserve">
+    <value>Segunda-feira</value>
+  </data>
+  <data name="MonthUpper" xml:space="preserve">
+    <value>MÊS</value>
+  </data>
+  <data name="MustFillCardNumber" xml:space="preserve">
+    <value>É necessário preencher o número do cartão.</value>
+  </data>
+  <data name="MustFillMedAct" xml:space="preserve">
+    <value>Deve preencher a consulta para continuar</value>
+  </data>
+  <data name="MustPickFinancialEntity" xml:space="preserve">
+    <value>É necessário selecionar uma EFR</value>
+  </data>
+  <data name="MyPatients" xml:space="preserve">
+    <value>Meus</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="Navigate" xml:space="preserve">
+    <value>Navegar</value>
+  </data>
+  <data name="NearestBalcony" xml:space="preserve">
+    <value>Por favor dirija-se ao balcão mais próximo para fazer check-in.</value>
+  </data>
+  <data name="NewDonationForm" xml:space="preserve">
+    <value>Formulário nova doação</value>
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>Nova senha</value>
+  </data>
+  <data name="NIF" xml:space="preserve">
+    <value>NIF</value>
+  </data>
+  <data name="NoActionsForSelDay" xml:space="preserve">
+    <value>Não existem tarefas para o dia selecionado.</value>
+  </data>
+  <data name="NoAnnotations" xml:space="preserve">
+    <value>Sem anotações</value>
+  </data>
+  <data name="NoAppointmentsLabel" xml:space="preserve">
+    <value>Nenhum ato selecionado...</value>
+  </data>
+  <data name="NoCurriculumData" xml:space="preserve">
+    <value>Sem dados do curriculum para apresentar</value>
+  </data>
+  <data name="NoEfrLabel" xml:space="preserve">
+    <value>Sem EFR</value>
+  </data>
+  <data name="NoExamsResults" xml:space="preserve">
+    <value>Sem resultados de exames.</value>
+  </data>
+  <data name="NoExistsNotifications" xml:space="preserve">
+    <value>Não existem notificações.</value>
+  </data>
+  <data name="NoExistsUnreadNotifications" xml:space="preserve">
+    <value>Não existem notificações pendentes.</value>
+  </data>
+  <data name="NoFinancialEntitiesForDoctor" xml:space="preserve">
+    <value>Não existem EFRs associadas a este médico</value>
+  </data>
+  <data name="NoInformation" xml:space="preserve">
+    <value>Sem informação</value>
+  </data>
+  <data name="NoInternet" xml:space="preserve">
+    <value>Sem conexão à internet...</value>
+  </data>
+  <data name="NoInternmentServices" xml:space="preserve">
+    <value>Não existem serviços de internação.</value>
+  </data>
+  <data name="NoMedicLabel" xml:space="preserve">
+    <value>Todos</value>
+  </data>
+  <data name="NoMyPatients" xml:space="preserve">
+    <value>Não existem pacientes atribuidos.</value>
+  </data>
+  <data name="NoMyPatientsDoctor" xml:space="preserve">
+    <value>Não existem pacientes atribuidos para hoje</value>
+  </data>
+  <data name="NoName" xml:space="preserve">
+    <value>Sem Nome</value>
+  </data>
+  <data name="NoNotifications" xml:space="preserve">
+    <value>Sem notificações.</value>
+  </data>
+  <data name="NoPatients" xml:space="preserve">
+    <value>Não existem pacientes.</value>
+  </data>
+  <data name="NoRecentExamsResults" xml:space="preserve">
+    <value>Sem resultados de exames recentes.</value>
+  </data>
+  <data name="NoResults" xml:space="preserve">
+    <value>Sem resultados.</value>
+  </data>
+  <data name="NoRulesAndProcedures" xml:space="preserve">
+    <value>Não existem normas nem procedimentos.</value>
+  </data>
+  <data name="NoScheduleAppointments" xml:space="preserve">
+    <value>Não tem consultas agendadas.</value>
+  </data>
+  <data name="NoScheduleAppointmentsNear" xml:space="preserve">
+    <value>Não tem marcações para os próximos dias.</value>
+  </data>
+  <data name="NoScheduleAppointmentsToday" xml:space="preserve">
+    <value>Não tem marcações para hoje.</value>
+  </data>
+  <data name="NoSchedules" xml:space="preserve">
+    <value>Horários indisponíveis</value>
+  </data>
+  <data name="NoSchedulesTitle" xml:space="preserve">
+    <value>Horários</value>
+  </data>
+  <data name="NoSearchResults" xml:space="preserve">
+    <value>Sem resultados para a pesquisa.</value>
+  </data>
+  <data name="NoSpecialtieLabel" xml:space="preserve">
+    <value>&lt;selecionar especialidade&gt;</value>
+  </data>
+  <data name="NoTasks" xml:space="preserve">
+    <value>Sem tarefas</value>
+  </data>
+  <data name="NotificationsMenu" xml:space="preserve">
+    <value>Notificações</value>
+  </data>
+  <data name="NotificationsTitle" xml:space="preserve">
+    <value>Notificações</value>
+  </data>
+  <data name="NoUnreadNotifications" xml:space="preserve">
+    <value>Sem notificações pendentes.</value>
+  </data>
+  <data name="NoVacancy" xml:space="preserve">
+    <value>Sem vagas</value>
+  </data>
+  <data name="NovAcr" xml:space="preserve">
+    <value>Nov</value>
+  </data>
+  <data name="OctAcr" xml:space="preserve">
+    <value>Out</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="OperationFailed" xml:space="preserve">
+    <value>Não foi possível efetuar a operação</value>
+  </data>
+  <data name="OperationFinished" xml:space="preserve">
+    <value>Operação Concluida</value>
+  </data>
+  <data name="OptionalField" xml:space="preserve">
+    <value>*Campo opcional</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Senha</value>
+  </data>
+  <data name="PatientAppointmentsTitle" xml:space="preserve">
+    <value>Agendaxxx</value>
+  </data>
+  <data name="Patients" xml:space="preserve">
+    <value>Pacientes</value>
+  </data>
+  <data name="Pay" xml:space="preserve">
+    <value>Pagar</value>
+  </data>
+  <data name="Payment" xml:space="preserve">
+    <value>Pagamento</value>
+  </data>
+  <data name="PayWith" xml:space="preserve">
+    <value>Pague com</value>
+  </data>
+  <data name="PeopleInLine" xml:space="preserve">
+    <value>Pessoas à frente</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Telefone</value>
+  </data>
+  <data name="PickAtLeastOneToShare" xml:space="preserve">
+    <value>Selecione pelo menos um resultado para partilhar.</value>
+  </data>
+  <data name="PickFromGallery" xml:space="preserve">
+    <value>Escolher da galeria</value>
+  </data>
+  <data name="PickToShare" xml:space="preserve">
+    <value>Selecione resultado a partilhar</value>
+  </data>
+  <data name="PIN" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="PintSent" xml:space="preserve">
+    <value>PIN enviado com sucesso. Verifique a sua caixa de mensagens.</value>
+  </data>
+  <data name="PlaceValidationCode" xml:space="preserve">
+    <value>Coloque o código que recebeu por sms para validar</value>
+  </data>
+  <data name="PleaseFillFields" xml:space="preserve">
+    <value>Por favor, preencha os campos.</value>
+  </data>
+  <data name="PressAgainToExit" xml:space="preserve">
+    <value>Carregue novamente no botão de voltar para sair da aplicação.</value>
+  </data>
+  <data name="PressEnter" xml:space="preserve">
+    <value>Pressione ENTER</value>
+  </data>
+  <data name="PrevMonth" xml:space="preserve">
+    <value>Mês Anterior</value>
+  </data>
+  <data name="PrevYear" xml:space="preserve">
+    <value>Ano Anterior</value>
+  </data>
+  <data name="Proceed" xml:space="preserve">
+    <value>Continuar</value>
+  </data>
+  <data name="ProcessScheduling" xml:space="preserve">
+    <value>A marcar...</value>
+  </data>
+  <data name="ProfileMenu" xml:space="preserve">
+    <value>Dados Pessoais</value>
+  </data>
+  <data name="QuestionaireInfo" xml:space="preserve">
+    <value>Por favor assinale os campos com a resposta que considera adequada à sua situação.</value>
+  </data>
+  <data name="RecentTab" xml:space="preserve">
+    <value>Mais recentes</value>
+  </data>
+  <data name="RecoverPassword" xml:space="preserve">
+    <value>Recuperar Senha</value>
+  </data>
+  <data name="Reference" xml:space="preserve">
+    <value>Referência</value>
+  </data>
+  <data name="Register" xml:space="preserve">
+    <value>Registar</value>
+  </data>
+  <data name="RegisterHere" xml:space="preserve">
+    <value>Registe-se aqui</value>
+  </data>
+  <data name="RequestHelp" xml:space="preserve">
+    <value>Pedido de ajuda</value>
+  </data>
+  <data name="RequestPIN" xml:space="preserve">
+    <value>Pedir Pin</value>
+  </data>
+  <data name="ResultWasSharedWith" xml:space="preserve">
+    <value>Resultado foi partilhado com</value>
+  </data>
+  <data name="RulesAndProcedures" xml:space="preserve">
+    <value>Normas e Procedimentos</value>
+  </data>
+  <data name="Saturday" xml:space="preserve">
+    <value>Sábado</value>
+  </data>
+  <data name="ScheduleItemList" xml:space="preserve">
+    <value>Horários</value>
+  </data>
+  <data name="ScheduleLabel" xml:space="preserve">
+    <value>Horário</value>
+  </data>
+  <data name="ScheduleSuccess" xml:space="preserve">
+    <value>Marcação realizada com sucesso</value>
+  </data>
+  <data name="Scheduling" xml:space="preserve">
+    <value>Agendamento</value>
+  </data>
+  <data name="SearchAvailableBtn" xml:space="preserve">
+    <value>Pesquisar vagas</value>
+  </data>
+  <data name="SearchBarPlaceholder" xml:space="preserve">
+    <value>Pesquisa</value>
+  </data>
+  <data name="SearchPatients" xml:space="preserve">
+    <value>Pesquisar Pacientes</value>
+  </data>
+  <data name="SecondPartLogo" xml:space="preserve">
+    <value>CUIDAR</value>
+  </data>
+  <data name="SecondStepTitle" xml:space="preserve">
+    <value>Preencha o formulário</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Enviar</value>
+  </data>
+  <data name="SendingPin" xml:space="preserve">
+    <value>A enviar PIN...</value>
+  </data>
+  <data name="SepAcr" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="Services" xml:space="preserve">
+    <value>Serviços</value>
+  </data>
+  <data name="ServiceUnavailable" xml:space="preserve">
+    <value>Serviço indisponível...</value>
+  </data>
+  <data name="ServiceUnavailableInternetAccess" xml:space="preserve">
+    <value>Serviço indisponível. Por favor valide o seu acesso à internet.</value>
+  </data>
+  <data name="ServiceUnavailableTryLater" xml:space="preserve">
+    <value>Serviço indisponível. Por favor volte a tentar mais tarde.</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Definições</value>
+  </data>
+  <data name="Settled" xml:space="preserve">
+    <value>Liquidadas</value>
+  </data>
+  <data name="Share" xml:space="preserve">
+    <value>Partilhar</value>
+  </data>
+  <data name="ShareResults" xml:space="preserve">
+    <value>Partilhar resultado</value>
+  </data>
+  <data name="SpecialitiesItemList" xml:space="preserve">
+    <value>Especialidades e Áreas Clínicas</value>
+  </data>
+  <data name="SpecialtiesLabel" xml:space="preserve">
+    <value>Especialidades</value>
+  </data>
+  <data name="SpecialtiesNoResults" xml:space="preserve">
+    <value>Sem resultados de especialidades para a sua pesquisa</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>Sucesso</value>
+  </data>
+  <data name="Sunday" xml:space="preserve">
+    <value>Domingo</value>
+  </data>
+  <data name="TakePhoto" xml:space="preserve">
+    <value>Tirar foto</value>
+  </data>
+  <data name="TaskManagement" xml:space="preserve">
+    <value>Gestão de Tarefas</value>
+  </data>
+  <data name="TermsConditions" xml:space="preserve">
+    <value>Termos e condições</value>
+  </data>
+  <data name="ThirdStep2Title" xml:space="preserve">
+    <value>Selecione um horário</value>
+  </data>
+  <data name="ThirdStepTitle" xml:space="preserve">
+    <value>Agenda</value>
+  </data>
+  <data name="Thursday" xml:space="preserve">
+    <value>Quinta-feira</value>
+  </data>
+  <data name="Ticket" xml:space="preserve">
+    <value>Senha</value>
+  </data>
+  <data name="TimeStringSeperator" xml:space="preserve">
+    <value>às</value>
+  </data>
+  <data name="TodayTab" xml:space="preserve">
+    <value>Hoje</value>
+  </data>
+  <data name="ToggleAll" xml:space="preserve">
+    <value>Mudar Todos</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="TotalValue" xml:space="preserve">
+    <value>Valor total</value>
+  </data>
+  <data name="Tuesday" xml:space="preserve">
+    <value>Terça-feira</value>
+  </data>
+  <data name="TypeReceiverEmail" xml:space="preserve">
+    <value>Insira o(s) email(s) do(s) destinatário(s)</value>
+  </data>
+  <data name="UnexpectedError" xml:space="preserve">
+    <value>Pedimos desculpa ocorreu um erro inesperado. Por favor volte a tentar mais tarde.</value>
+  </data>
+  <data name="UnknownCardFormat" xml:space="preserve">
+    <value>Não é possível verificar o formato do cartão</value>
+  </data>
+  <data name="UnreadTab" xml:space="preserve">
+    <value>Não lidas</value>
+  </data>
+  <data name="UnSettled" xml:space="preserve">
+    <value>Por liquidar</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Utilizador</value>
+  </data>
+  <data name="UserEmail" xml:space="preserve">
+    <value>Utilizador (e-mail)</value>
+  </data>
+  <data name="Username" xml:space="preserve">
+    <value>Utilizador</value>
+  </data>
+  <data name="Validate" xml:space="preserve">
+    <value>Validar</value>
+  </data>
+  <data name="ValidCode" xml:space="preserve">
+    <value>Código válido.</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="ValueInDebit" xml:space="preserve">
+    <value>Valor em débito</value>
+  </data>
+  <data name="WantAssumePatient" xml:space="preserve">
+    <value>Pretende assumir o doente?</value>
+  </data>
+  <data name="Wednesday" xml:space="preserve">
+    <value>Quarta-feira</value>
+  </data>
+  <data name="WeekDaysLabel" xml:space="preserve">
+    <value>Dias da semana</value>
+  </data>
+  <data name="Weight" xml:space="preserve">
+    <value>Peso</value>
+  </data>
+  <data name="WillReceiveSmsWithCode" xml:space="preserve">
+    <value>Irá receber um sms com o seu código</value>
+  </data>
+  <data name="WithResults" xml:space="preserve">
+    <value>Com resultados.</value>
+  </data>
+  <data name="WithSearchResults" xml:space="preserve">
+    <value>Com resultados para a pesquisa.</value>
+  </data>
+  <data name="YearUpper" xml:space="preserve">
+    <value>ANO</value>
+  </data>
+  <data name="Register3" xml:space="preserve">
+    <value>Aderir</value>
+  </data>
+  <data name="HarvestStationsMenu_HPA" xml:space="preserve">
+    <value>Clínicas Associadas</value>
+  </data>
+  <data name="LogGuest" xml:space="preserve">
+    <value>Entrar como visitante</value>
+  </data>
+  <data name="RecoverPassword2" xml:space="preserve">
+    <value>Esqueceu-se da Palavra-Passe?</value>
+  </data>
+  <data name="Register2" xml:space="preserve">
+    <value>Registar-se</value>
+  </data>
+  <data name="All2Tab" xml:space="preserve">
+    <value>Todas</value>
+  </data>
+  <data name="CannotFindDesiredBookingAppts" xml:space="preserve">
+    <value>Não existe vaga para horário pretendido</value>
+  </data>
+  <data name="AskBookApts" xml:space="preserve">
+    <value>Fazer Pedido de Marcação</value>
+  </data>
+  <data name="Confirmation" xml:space="preserve">
+    <value>Confirmação</value>
+  </data>
+  <data name="BookingApptsRequest" xml:space="preserve">
+    <value>Pedido de marcação</value>
+  </data>
+  <data name="BookingApptsRequestWarning" xml:space="preserve">
+    <value>A sua escolha trata-se de um pedido de marcação e por isso deve aguardar o contato dos nossos assistentes, assim que possível.</value>
+  </data>
+  <data name="Date_Prefered" xml:space="preserve">
+    <value>Data Preferencial</value>
+  </data>
+  <data name="Observations" xml:space="preserve">
+    <value>Observações</value>
+  </data>
+  <data name="ObsPlaceHolderField" xml:space="preserve">
+    <value>&lt;Escreva aqui o que acha importante nós sabermos&gt;</value>
+  </data>
+  <data name="ConfirmRequest" xml:space="preserve">
+    <value>Confirmar Pedido</value>
+  </data>
+  <data name="Female" xml:space="preserve">
+    <value>Feminino</value>
+  </data>
+  <data name="FullName" xml:space="preserve">
+    <value>Nome Completo</value>
+  </data>
+  <data name="InsertBirthDate" xml:space="preserve">
+    <value>&lt;inserir data de nascimento&gt;</value>
+  </data>
+  <data name="InsertEmail" xml:space="preserve">
+    <value>&lt;inserir e-mail&gt;</value>
+  </data>
+  <data name="InsertFullName" xml:space="preserve">
+    <value>&lt;inserir nome completo&gt;</value>
+  </data>
+  <data name="InsertNIF" xml:space="preserve">
+    <value>&lt;inserir NIF&gt;</value>
+  </data>
+  <data name="InsertPhoneCellPhone" xml:space="preserve">
+    <value>&lt;inserir telemóvel&gt;</value>
+  </data>
+  <data name="Male" xml:space="preserve">
+    <value>Masculino</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Seguinte</value>
+  </data>
+  <data name="PhoneCellPhone" xml:space="preserve">
+    <value>Telefone/ Telemóvel</value>
+  </data>
+  <data name="Sex" xml:space="preserve">
+    <value>Sexo</value>
+  </data>
+  <data name="CancelAppointment" xml:space="preserve">
+    <value>Cancelar Consulta</value>
+  </data>
+  <data name="RescheduleAppointment" xml:space="preserve">
+    <value>Remarcar Consulta</value>
+  </data>
+  <data name="AskBookAptsFailed" xml:space="preserve">
+    <value>Não foi possível realizar o pedido de marcação.</value>
+  </data>
+  <data name="AskBookAptsSuccess" xml:space="preserve">
+    <value>Pedido de Marcação Efectuado com Sucesso.</value>
+  </data>
+  <data name="DoctorInformation" xml:space="preserve">
+    <value>Informação Médico</value>
+  </data>
+  <data name="YourChoice" xml:space="preserve">
+    <value>A sua escolha</value>
+  </data>
+  <data name="VisitorRegisterNOK" xml:space="preserve">
+    <value>Não foi possível efetuar o seu pedido. Por favor tente mais tarde.</value>
+  </data>
+  <data name="VisitorRegisterOK" xml:space="preserve">
+    <value>Concluiu com sucesso o seu pedido</value>
+  </data>
+  <data name="AskBookApptsList" xml:space="preserve">
+    <value>Lista de Pedidos</value>
+  </data>
+  <data name="Pending" xml:space="preserve">
+    <value>Pendentes</value>
+  </data>
+  <data name="Settle" xml:space="preserve">
+    <value>Resolvidos</value>
+  </data>
+  <data name="ConfirmPassword2" xml:space="preserve">
+    <value>Confirme a sua password</value>
+  </data>
+  <data name="InsertPassword" xml:space="preserve">
+    <value>&lt;inserir password&gt;</value>
+  </data>
+  <data name="InsertPin" xml:space="preserve">
+    <value>&lt;inserir pin&gt;</value>
+  </data>
+  <data name="PasswordSet" xml:space="preserve">
+    <value>Defina a sua password</value>
+  </data>
+  <data name="VisitorRegister2PageMessage" xml:space="preserve">
+    <value>De forma a validar a sua identidade insira o PIN que recebeu no telemóvel.</value>
+  </data>
+  <data name="AlertUpper" xml:space="preserve">
+    <value>AVISO</value>
+  </data>
+  <data name="FileSavePermission" xml:space="preserve">
+    <value>Não deu permissão para guardar o ficheiro</value>
+  </data>
+  <data name="LocalizationPermission" xml:space="preserve">
+    <value>Não deu permissão para calcular a sua localização</value>
+  </data>
+  <data name="AppointmentsExamsLabel" xml:space="preserve">
+    <value>Consulta/Exame</value>
+  </data>
+  <data name="InsertAppoitmentExam" xml:space="preserve">
+    <value>&lt;selecionar consulta/exame&gt;</value>
+  </data>
+  <data name="InsertEFR" xml:space="preserve">
+    <value>&lt;selecionar acordo&gt;</value>
+  </data>
+  <data name="AppointmentNotes" xml:space="preserve">
+    <value>Notas para Consulta</value>
+  </data>
+  <data name="ExamPreparations" xml:space="preserve">
+    <value>Preparações para Exame</value>
+  </data>
+  <data name="MandatoryFields" xml:space="preserve">
+    <value>Campos obrigatórios</value>
+  </data>
+  <data name="ReceivePinCode" xml:space="preserve">
+    <value>Após o registo, receberá o seu código de acesso via SMS</value>
+  </data>
+  <data name="HoursHUpper" xml:space="preserve">
+    <value>Horas</value>
+  </data>
+  <data name="ConfirmPassword3" xml:space="preserve">
+    <value>Confirmar Password</value>
+  </data>
+  <data name="PasswordLabel" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="PreviousTab" xml:space="preserve">
+    <value>Anteriores</value>
+  </data>
+  <data name="NoScheduleAppointmentsPrevious" xml:space="preserve">
+    <value>Não tem marcações anteriores.</value>
+  </data>
+  <data name="Reschedule" xml:space="preserve">
+    <value>Remarcar</value>
+  </data>
+  <data name="RecoverPassword3" xml:space="preserve">
+    <value>Recuperar Palavra-Passe</value>
+  </data>
+  <data name="PinReceivedSMS" xml:space="preserve">
+    <value>PIN recebido por SMS</value>
+  </data>
+  <data name="NewPassword1" xml:space="preserve">
+    <value>Nova Palavra-passe</value>
+  </data>
+  <data name="InsertPassword1" xml:space="preserve">
+    <value>&lt;inserir palavra-passe&gt;</value>
+  </data>
+  <data name="PasswordSucess" xml:space="preserve">
+    <value>A palavra-passe foi alterada com sucesso.</value>
+  </data>
+  <data name="PendingRequest" xml:space="preserve">
+    <value>Pedido Pendente</value>
+  </data>
+  <data name="YourRequest" xml:space="preserve">
+    <value>O seu Pedido a</value>
+  </data>
+  <data name="PasswordResetError" xml:space="preserve">
+    <value>Não foi possível alterar a password</value>
+  </data>
+  <data name="ChangingPassword" xml:space="preserve">
+    <value>A alterar password</value>
+  </data>
+  <data name="AnalysisStation" xml:space="preserve">
+    <value>Postos de Análises Clínicas</value>
+  </data>
+  <data name="MedicClinics" xml:space="preserve">
+    <value>Clínicas Médicas</value>
+  </data>
+  <data name="UserEmail1" xml:space="preserve">
+    <value>Utilizador / E-mail</value>
+  </data>
+  <data name="AlreadyUser" xml:space="preserve">
+    <value>Sou Cliente :</value>
+  </data>
+  <data name="NotYetUser" xml:space="preserve">
+    <value>Não Sou Cliente :</value>
+  </data>
+  <data name="PasswordExpand" xml:space="preserve">
+    <value>Palavra-Passe</value>
+  </data>
+  <data name="AplicationTab" xml:space="preserve">
+    <value>Aplicação</value>
+  </data>
+  <data name="EnterpriseTab" xml:space="preserve">
+    <value>Empresa</value>
+  </data>
+  <data name="ModulesTab" xml:space="preserve">
+    <value>Módulos</value>
+  </data>
+  <data name="ScheduleNext" xml:space="preserve">
+    <value>Marcar próxima</value>
+  </data>
+  <data name="Preparation" xml:space="preserve">
+    <value>Preparação</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Notas</value>
+  </data>
+  <data name="FacilityAppointment" xml:space="preserve">
+    <value>Unidades e Marcações</value>
+  </data>
+  <data name="lblCalcularRota" xml:space="preserve">
+    <value>Calcular Rota</value>
+  </data>
+  <data name="ApptCancelled" xml:space="preserve">
+    <value>Marcação anulada com sucesso.</value>
+  </data>
+  <data name="ApptCancelledError" xml:space="preserve">
+    <value>Não foi possível anular a consulta. Tente mais tarde.</value>
+  </data>
+  <data name="ContactPhone" xml:space="preserve">
+    <value>Contato</value>
+  </data>
+  <data name="Week" xml:space="preserve">
+    <value>Semana:</value>
+  </data>
+  <data name="Weekend" xml:space="preserve">
+    <value>Fim-de-Semana:</value>
+  </data>
+  <data name="MenuPrincipalMenuItem" xml:space="preserve">
+    <value>Pagina Inícial</value>
+  </data>
+  <data name="AplicationLabel" xml:space="preserve">
+    <value>Aplicação</value>
+  </data>
+  <data name="ArmazemLabel" xml:space="preserve">
+    <value>Armazem</value>
+  </data>
+  <data name="CalcularRotaLabel" xml:space="preserve">
+    <value>Calcular Rota</value>
+  </data>
+  <data name="EnterpriseLabel" xml:space="preserve">
+    <value>Empresa</value>
+  </data>
+  <data name="ModulesLabel" xml:space="preserve">
+    <value>Módulos</value>
+  </data>
+  <data name="RotaLabel" xml:space="preserve">
+    <value>Rota</value>
+  </data>
+  <data name="FinalizarLabel" xml:space="preserve">
+    <value>Finalizar</value>
+  </data>
+  <data name="InserirArmazemLabel" xml:space="preserve">
+    <value>inserir amazém</value>
+  </data>
+  <data name="InsertProduct" xml:space="preserve">
+    <value>&lt;insira o produto&gt;</value>
+  </data>
+  <data name="ProdutoLabel" xml:space="preserve">
+    <value>Produto</value>
+  </data>
+  <data name="ServicoLabel" xml:space="preserve">
+    <value>Serviço</value>
+  </data>
+  <data name="EscolherProdutos" xml:space="preserve">
+    <value>Escolha o(s) pedido(s)</value>
+  </data>
+  <data name="ParaArmazemLabel" xml:space="preserve">
+    <value>Para armazém:</value>
+  </data>
+  <data name="LerProdutoView" xml:space="preserve">
+    <value>Ler produto</value>
+  </data>
+  <data name="PickingLabel" xml:space="preserve">
+    <value>Picking</value>
+  </data>
+  <data name="ListaDePickingCompletaLabel" xml:space="preserve">
+    <value>Lista de Picking Completa</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Imprimir</value>
+  </data>
+  <data name="EscolhaArmazemLabel" xml:space="preserve">
+    <value>Escolha o Armazém </value>
+  </data>
+  <data name="OndeEstamosLabel" xml:space="preserve">
+    <value>Onde estamos</value>
+  </data>
+  <data name="GlinttLabel" xml:space="preserve">
+    <value>Glintt Healthcare Solutions S.A.</value>
+  </data>
+  <data name="Adress" xml:space="preserve">
+    <value>Morada</value>
+  </data>
+  <data name="AppoittsNotesError" xml:space="preserve">
+    <value>Erro a obter as notas para a marcação.</value>
+  </data>
+  <data name="For" xml:space="preserve">
+    <value>Para</value>
+  </data>
+  <data name="PreparationsGetError" xml:space="preserve">
+    <value>Erro a obter as preparações da marcação.</value>
+  </data>
+  <data name="LoteLabel" xml:space="preserve">
+    <value>Lote</value>
+  </data>
+  <data name="QuantidadeEmbaladaLabel" xml:space="preserve">
+    <value>Quantidade Embalada:</value>
+  </data>
+  <data name="QuantidadeLabel" xml:space="preserve">
+    <value>Quantidade:</value>
+  </data>
+  <data name="QuantidadePedidaLabel" xml:space="preserve">
+    <value>Quantidade Pedida:</value>
+  </data>
+  <data name="UnidadeLabel" xml:space="preserve">
+    <value>Unidades</value>
+  </data>
+  <data name="IncludeImage" xml:space="preserve">
+    <value>Enviar Imagens</value>
+  </data>
+  <data name="LocalizacaoLabel" xml:space="preserve">
+    <value>Localização:</value>
+  </data>
+  <data name="RegistoEntradasLabel" xml:space="preserve">
+    <value>Registo de entradas</value>
+  </data>
+  <data name="InsertCodigoEntry" xml:space="preserve">
+    <value>&lt;insera código&gt;</value>
+  </data>
+  <data name="IntroduzaCodigoAVerificarLabel" xml:space="preserve">
+    <value>Introduza o código a verificar:</value>
+  </data>
+  <data name="RegistoEntradasText" xml:space="preserve">
+    <value>Introduza o código da encomenda ou o código do fornecedor ou o código interno do artigo ou a referência do fornecedor ou o AIM do produto</value>
+  </data>
+  <data name="NumeroDocumentoLabel" xml:space="preserve">
+    <value>Nº Documento:</value>
+  </data>
+  <data name="NumeroEncomendaLabel" xml:space="preserve">
+    <value>Nº Encomenda:</value>
+  </data>
+  <data name="TipoLabel" xml:space="preserve">
+    <value>Tipo:</value>
+  </data>
+  <data name="AppointmentRequest" xml:space="preserve">
+    <value>Pedidos de Marcação</value>
+  </data>
+  <data name="CancelApp" xml:space="preserve">
+    <value>Caso opte pela opção SIM a marcação ficará sem efeito.</value>
+  </data>
+  <data name="SaveLabel" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="InsertMedicamento" xml:space="preserve">
+    <value>&lt;insera o medicamento&gt;</value>
+  </data>
+  <data name="MedicamentoLabel" xml:space="preserve">
+    <value>Medicamento :</value>
+  </data>
+  <data name="StockLabel" xml:space="preserve">
+    <value>Stock :</value>
+  </data>
+  <data name="DeleteLabel" xml:space="preserve">
+    <value>Apagar</value>
+  </data>
+  <data name="PrazoDeValidadeLabel" xml:space="preserve">
+    <value>Prazo de Validade</value>
+  </data>
+  <data name="RegisterPacientProAndScheduleApp" xml:space="preserve">
+    <value>Registar paciente pro e marcar</value>
+  </data>
+  <data name="RegisterPacientProAndCreateAppointmentRequest" xml:space="preserve">
+    <value>Registar paciente pro e realizar pedido de marcação</value>
+  </data>
+  <data name="ConfirmNewPassword" xml:space="preserve">
+    <value>Confirmar Nova Palavra-passe</value>
+  </data>
+  <data name="DevolucaoLabel" xml:space="preserve">
+    <value>Devoluções</value>
+  </data>
+  <data name="SatisfacaoPedidosLabel" xml:space="preserve">
+    <value>Satisfação de Pedidos</value>
+  </data>
+  <data name="AvailableVacancy" xml:space="preserve">
+    <value>Vaga Disponível</value>
+  </data>
+  <data name="DataConsumolbl" xml:space="preserve">
+    <value>Data de consumo</value>
+  </data>
+  <data name="RegistoDeConsumoLbl" xml:space="preserve">
+    <value>Registo de Consumos</value>
+  </data>
+  <data name="FamiliaLabel" xml:space="preserve">
+    <value>Família :</value>
+  </data>
+  <data name="InventarioLabel" xml:space="preserve">
+    <value>Inventário nº :</value>
+  </data>
+  <data name="InventarioTituloLabel" xml:space="preserve">
+    <value>Inventário</value>
+  </data>
+  <data name="InsertArmazem" xml:space="preserve">
+    <value>&lt;insira o armazém&gt;</value>
+  </data>
+  <data name="insertData" xml:space="preserve">
+    <value>&lt; insira a data &gt;</value>
+  </data>
+  <data name="insertFamilia" xml:space="preserve">
+    <value>&lt;insira a família&gt;</value>
+  </data>
+  <data name="InsertInventario" xml:space="preserve">
+    <value>&lt;insira o inventário&gt;</value>
+  </data>
+  <data name="IncludeReport" xml:space="preserve">
+    <value>Enviar Relatório</value>
+  </data>
+  <data name="NumeroNotasTitle" xml:space="preserve">
+    <value>Nº de notas de Encomendas Pendentes</value>
+  </data>
+  <data name="Fatura" xml:space="preserve">
+    <value>Fatura</value>
+  </data>
+  <data name="FaturaProforma" xml:space="preserve">
+    <value>Fatura Proforma</value>
+  </data>
+  <data name="Fax" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="GuiaDeConsignacao" xml:space="preserve">
+    <value>Guia de Consignação</value>
+  </data>
+  <data name="GuiaDeTransporte" xml:space="preserve">
+    <value>Guia de Transporte</value>
+  </data>
+  <data name="GuiaRemessaProvisoria" xml:space="preserve">
+    <value>Guia Remessa Provisória</value>
+  </data>
+  <data name="VendaACredito" xml:space="preserve">
+    <value>Venda a Crédito</value>
+  </data>
+  <data name="VendaDinheiro" xml:space="preserve">
+    <value>Venda a dinheiro</value>
+  </data>
+  <data name="GuiaRemessa" xml:space="preserve">
+    <value>Guia de Remessa</value>
+  </data>
+  <data name="InsertNumeroEncomenda" xml:space="preserve">
+    <value>&lt; inserir número encomenda &gt;</value>
+  </data>
+  <data name="InsertNumeroDocumento" xml:space="preserve">
+    <value>&lt;insira o nº do documento&gt;</value>
+  </data>
+  <data name="InsertTipo" xml:space="preserve">
+    <value>&lt;insira o tipo&gt;</value>
+  </data>
+  <data name="InsertLote" xml:space="preserve">
+    <value>&lt;insira o lote&gt;</value>
+  </data>
+  <data name="InsertPrazoDeValidade" xml:space="preserve">
+    <value>&lt;insira prazo de validade&gt;</value>
+  </data>
+  <data name="InsertQuantidadeRequerida" xml:space="preserve">
+    <value>&lt;insira a quantidade requerida&gt;</value>
+  </data>
+  <data name="QuantidadeRequerida" xml:space="preserve">
+    <value>Quantidade req:</value>
+  </data>
+  <data name="AvailableImages" xml:space="preserve">
+    <value>Imagens disponíveis</value>
+  </data>
+  <data name="Iva" xml:space="preserve">
+    <value>Iva</value>
+  </data>
+  <data name="PrecoUnitarioSemIva" xml:space="preserve">
+    <value>Preço Unitário s/Iva</value>
+  </data>
+  <data name="TotalSemIva" xml:space="preserve">
+    <value>Total s/IVA</value>
+  </data>
+  <data name="SharingResults" xml:space="preserve">
+    <value>A partilhar resultados...</value>
+  </data>
+  <data name="VariousEmails" xml:space="preserve">
+    <value>Para inserir vários endereços de e-mail insira ";" entre eles.</value>
+  </data>
+  <data name="WaitingTimeEmails" xml:space="preserve">
+    <value>O envio das imagens poderá demorar até 15 minutos.</value>
+  </data>
+  <data name="DuplicarLinhaLabel" xml:space="preserve">
+    <value>Duplicar linha</value>
+  </data>
+  <data name="InsertQuantidade" xml:space="preserve">
+    <value>&lt;insira a quantidade&gt;</value>
+  </data>
+  <data name="InsertServico" xml:space="preserve">
+    <value>&lt;insira o serviço&gt;</value>
+  </data>
+  <data name="InventarioMenuItemLabel" xml:space="preserve">
+    <value>Inventário</value>
+  </data>
+  <data name="ClinicReport" xml:space="preserve">
+    <value>Relatório Clínico</value>
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>Relatório</value>
+  </data>
+  <data name="ViewReport" xml:space="preserve">
+    <value>Ver Relatório</value>
+  </data>
+  <data name="QuantidadeEncontradaLabel" xml:space="preserve">
+    <value>Quantidade encontrada</value>
+  </data>
+  <data name="DataDevolucao" xml:space="preserve">
+    <value>Data de devolução</value>
+  </data>
+  <data name="Confirmar" xml:space="preserve">
+    <value>Confirmar</value>
+  </data>
+  <data name="Detalhes" xml:space="preserve">
+    <value>Detalhes</value>
+  </data>
+  <data name="Leitura" xml:space="preserve">
+    <value>Leitura</value>
+  </data>
+  <data name="CodigoLabel" xml:space="preserve">
+    <value>Código</value>
+  </data>
+  <data name="NoLabel" xml:space="preserve">
+    <value>Não</value>
+  </data>
+  <data name="YesLabel" xml:space="preserve">
+    <value>Sim</value>
+  </data>
+  <data name="AnteriorLabel" xml:space="preserve">
+    <value>Anterior</value>
+  </data>
+  <data name="Anular" xml:space="preserve">
+    <value>Anular</value>
+  </data>
+  <data name="EscolherOpcaoLabel" xml:space="preserve">
+    <value>Escolha uma opção</value>
+  </data>
+  <data name="SubstituirLabel" xml:space="preserve">
+    <value>Substituir</value>
+  </data>
+  <data name="ArtigoOriginal" xml:space="preserve">
+    <value>Artigo Original</value>
+  </data>
+  <data name="SubstituirPor" xml:space="preserve">
+    <value>Substituir por</value>
+  </data>
+  <data name="ContagemLbl" xml:space="preserve">
+    <value>Contagem</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EmailAddresses" xml:space="preserve">
+    <value>Endereço(s) de email</value>
+  </data>
+  <data name="GoBack" xml:space="preserve">
+    <value>Voltar</value>
+  </data>
+  <data name="PassDontMatch" xml:space="preserve">
+    <value>As palavras-passes não coincidem.</value>
+  </data>
+  <data name="InvalidEmailEx" xml:space="preserve">
+    <value>Email Inválido! Formato do email deve ser teste1@dominio.pt; teste2@dominio.com</value>
+  </data>
+  <data name="CC" xml:space="preserve">
+    <value>CC</value>
+  </data>
+  <data name="Undefined" xml:space="preserve">
+    <value>Indefinido</value>
+  </data>
+  <data name="ChooseDate" xml:space="preserve">
+    <value>&lt;selecionar data&gt;</value>
+  </data>
+  <data name="ChooseGender" xml:space="preserve">
+    <value>&lt;selecionar género&gt;</value>
+  </data>
+  <data name="NoPendentBookAppRequest" xml:space="preserve">
+    <value>Sem Pedidos de Marcação Pendentes.</value>
+  </data>
+  <data name="NoSettleBookAppRequest" xml:space="preserve">
+    <value>Sem Pedidos de Marcação Resolvidos.</value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Facility" xml:space="preserve">
+    <value>Unidade</value>
+  </data>
+  <data name="OptionalInBrackets" xml:space="preserve">
+    <value>(Opcional)</value>
+  </data>
+  <data name="PassMinimum" xml:space="preserve">
+    <value>A palavra-passe deve possuir pelo menos 6 carateres.</value>
+  </data>
+  <data name="EscolherProduto" xml:space="preserve">
+    <value>Escolha o pedido</value>
+  </data>
+  <data name="NoUserLabel" xml:space="preserve">
+    <value>selecionar destinatário</value>
+  </data>
+  <data name="AcessPatientPro" xml:space="preserve">
+    <value>Para ter acesso a esta funcionalidade deve completar o seu registo nas nossas clínicas.</value>
+  </data>
+  <data name="AddDescendant" xml:space="preserve">
+    <value>Adicionar Descendente</value>
+  </data>
+  <data name="Anotations" xml:space="preserve">
+    <value>Anotações</value>
+  </data>
+  <data name="AnswerSurvey" xml:space="preserve">
+    <value>Responder Inquérito de Satisfação</value>
+  </data>
+  <data name="Ask" xml:space="preserve">
+    <value>Pedir</value>
+  </data>
+  <data name="AskForPin" xml:space="preserve">
+    <value>Pedir pin</value>
+  </data>
+  <data name="AttendanceDeclaration" xml:space="preserve">
+    <value>Declaração de Presença</value>
+  </data>
+  <data name="Attention" xml:space="preserve">
+    <value>Atenção</value>
+  </data>
+  <data name="BlockedFuncionality" xml:space="preserve">
+    <value>Funcionalidade bloqueada</value>
+  </data>
+  <data name="BloodType" xml:space="preserve">
+    <value>Grupo Sanguíneo</value>
+  </data>
+  <data name="CantChangeField" xml:space="preserve">
+    <value>Não é possível efetuar alterações para este campo.</value>
+  </data>
+  <data name="CantChangeReceiver" xml:space="preserve">
+    <value>Não é possível alterar o destinatário no processo de remarcação/marcação de subsequentes.</value>
+  </data>
+  <data name="CantUploadPhoto" xml:space="preserve">
+    <value>Não foi possível fazer upload da fotografia</value>
+  </data>
+  <data name="ChangeColor" xml:space="preserve">
+    <value>Alterar Cor</value>
+  </data>
+  <data name="ChangedOnDate" xml:space="preserve">
+    <value>A sua ficha foi atualizada no dia</value>
+  </data>
+  <data name="ChangePass" xml:space="preserve">
+    <value>Mudar palavra-passe</value>
+  </data>
+  <data name="ChangePassword1" xml:space="preserve">
+    <value>Alterar Palavra-Passe</value>
+  </data>
+  <data name="ChangeProfilePhoto" xml:space="preserve">
+    <value>Alterar foto de perfil</value>
+  </data>
+  <data name="ClinicResume" xml:space="preserve">
+    <value>Resumo Clínico</value>
+  </data>
+  <data name="CompleteRegist" xml:space="preserve">
+    <value>Para ter acesso a esta funcionalidade, deverá completar o seu registo nas nossas clínicas</value>
+  </data>
+  <data name="CurrentPassword" xml:space="preserve">
+    <value>Palavra-passe atual</value>
+  </data>
+  <data name="DebugNoExecuteApk" xml:space="preserve">
+    <value>Em debug! Não executar validação ultima versão apk na store.</value>
+  </data>
+  <data name="DeclarationEmail" xml:space="preserve">
+    <value>Email para envio de declaração</value>
+  </data>
+  <data name="DeleteDescendant" xml:space="preserve">
+    <value>Desassociar Descendente</value>
+  </data>
+  <data name="Descendant" xml:space="preserve">
+    <value>Descendente</value>
+  </data>
+  <data name="DescendantProWait" xml:space="preserve">
+    <value>Este descendente possui algumas funcionalidades bloqueadas. Deverá aguardar a validação por parte dos nossos serviços administrativos para ter todas as funcionalidades ativas.</value>
+  </data>
+  <data name="Descendants" xml:space="preserve">
+    <value>Descendentes</value>
+  </data>
+  <data name="DonorNumber" xml:space="preserve">
+    <value>Nº Dador</value>
+  </data>
+  <data name="DownloadLatestVersion" xml:space="preserve">
+    <value>Deverá transferir a versão mais recente da App para continuar.</value>
+  </data>
+  <data name="ExemptionRequest" xml:space="preserve">
+    <value>Pedido de isenção</value>
+  </data>
+  <data name="FoundForm" xml:space="preserve">
+    <value>Ficha Encontrada.</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>Informação</value>
+  </data>
+  <data name="InsertCC" xml:space="preserve">
+    <value>&lt;inserir CC&gt;</value>
+  </data>
+  <data name="InsertNewPassword" xml:space="preserve">
+    <value>Inserir palavra-passe nova</value>
+  </data>
+  <data name="InsertNewPasswordAgain" xml:space="preserve">
+    <value>Inserir novamente palavra-passe nova</value>
+  </data>
+  <data name="InsertOldPassword" xml:space="preserve">
+    <value>Inserir palavra-passe antiga</value>
+  </data>
+  <data name="InsertScreenPin" xml:space="preserve">
+    <value>Deve inserir o PIN que se encontra no painel de informações.</value>
+  </data>
+  <data name="InsertValidPin" xml:space="preserve">
+    <value>Por favor, insira um PIN válido.</value>
+  </data>
+  <data name="InsertVariousEmails" xml:space="preserve">
+    <value>Para inserir vários endereços de email insira ";" entre eles.</value>
+  </data>
+  <data name="InvalidArtigCode" xml:space="preserve">
+    <value>O código do artigo é inváldo.</value>
+  </data>
+  <data name="JoinUpper" xml:space="preserve">
+    <value>ADERIR</value>
+  </data>
+  <data name="LoginWithFingerprint" xml:space="preserve">
+    <value>Coloque o dedo no sensor de impressões digitais para fazer Login</value>
+  </data>
+  <data name="LogoutUpper" xml:space="preserve">
+    <value>SAIR</value>
+  </data>
+  <data name="MobilePhone" xml:space="preserve">
+    <value>Telemóvel</value>
+  </data>
+  <data name="NoDoctor" xml:space="preserve">
+    <value>Sem médico atribuído</value>
+  </data>
+  <data name="NoExemption" xml:space="preserve">
+    <value>Não isento nos termos legais.</value>
+  </data>
+  <data name="NoInvoices" xml:space="preserve">
+    <value>Não tem faturas disponíveis</value>
+  </data>
+  <data name="NoSettle" xml:space="preserve">
+    <value>Não liquidadas</value>
+  </data>
+  <data name="NoValidateAppVersion" xml:space="preserve">
+    <value>Não foi possível validar a versão da app.</value>
+  </data>
+  <data name="OldPassword" xml:space="preserve">
+    <value>Palava-passe antiga</value>
+  </data>
+  <data name="OtherMethods" xml:space="preserve">
+    <value>Outros Métodos</value>
+  </data>
+  <data name="PasswordChangeMenu" xml:space="preserve">
+    <value>Alteração de Password</value>
+  </data>
+  <data name="PatientAlreadyHasNurse" xml:space="preserve">
+    <value>O doente já tem um enfermeiro associado!</value>
+  </data>
+  <data name="PatientProWait" xml:space="preserve">
+    <value>Paciente provisório. Deverá entrar em contacto com os nossos serviços administrativos para validar os seus dados e ter todas as funcionalidades ativas.</value>
+  </data>
+  <data name="PerformCheckin" xml:space="preserve">
+    <value>Fazer Check-in</value>
+  </data>
+  <data name="PerformCheckout" xml:space="preserve">
+    <value>Fazer Check-out</value>
+  </data>
+  <data name="Phenotype" xml:space="preserve">
+    <value>Fenótipo</value>
+  </data>
+  <data name="PhoneDiminutive" xml:space="preserve">
+    <value>tel:</value>
+  </data>
+  <data name="Receiver" xml:space="preserve">
+    <value>Destinatário</value>
+  </data>
+  <data name="SelectAtLeastOneOption" xml:space="preserve">
+    <value>Deve selecionar pelo menos uma opção de partilha.</value>
+  </data>
+  <data name="SelectClinic" xml:space="preserve">
+    <value>Selecione uma Clínica</value>
+  </data>
+  <data name="SelectDoctor" xml:space="preserve">
+    <value>Selecione um Médico</value>
+  </data>
+  <data name="SelectReceiver" xml:space="preserve">
+    <value>Selecionar destinatário</value>
+  </data>
+  <data name="SelectVacancy" xml:space="preserve">
+    <value>Selecione uma vaga</value>
+  </data>
+  <data name="SucessAppt" xml:space="preserve">
+    <value>Agendamento concluído com sucesso.</value>
+  </data>
+  <data name="TaxExemption" xml:space="preserve">
+    <value>Isenção de taxas moderadoras</value>
+  </data>
+  <data name="TimeExample" xml:space="preserve">
+    <value>Ex: Só tenho disponibilidade às 14:00h</value>
+  </data>
+  <data name="UserDownCase" xml:space="preserve">
+    <value>utilizador</value>
+  </data>
+  <data name="ValidatingPin" xml:space="preserve">
+    <value>A validar PIN...</value>
+  </data>
+  <data name="ValidationAlert" xml:space="preserve">
+    <value>Alerta Validação</value>
+  </data>
+  <data name="WaitForValidation" xml:space="preserve">
+    <value>O seu pedido de alteração de dados foi enviado para os nossos serviços administrativos. Deverá aguardar pela nossa validação.</value>
+  </data>
+  <data name="WantCancelAppt" xml:space="preserve">
+    <value>Deseja prosseguir com a anulação da marcação?</value>
+  </data>
+  <data name="WantDifferentSchedule" xml:space="preserve">
+    <value>Pretende uma marcação para um horário diferente?</value>
+  </data>
+  <data name="WhoCanDonate" xml:space="preserve">
+    <value>Quem pode doar sangue?</value>
+  </data>
+  <data name="WhoCanDonateAnswer" xml:space="preserve">
+    <value>Podem doar sangue todas as pessoas com bom estado de saúde, com hábitos de vida saudáveis, peso igual ou superior a 50 Kg e idade compreendida entre os 18 e 65 anos. Para uma primeira dádiva o limite de idade é aos 60 anos.</value>
+  </data>
+  <data name="WriteMessageHere" xml:space="preserve">
+    <value>Escreva aqui a mensagem</value>
+  </data>
+  <data name="ActivateTouchID" xml:space="preserve">
+    <value>Ativar Touch-ID</value>
+  </data>
+  <data name="AgeMinimum" xml:space="preserve">
+    <value>A idade mínima de registo é de 18 anos.</value>
+  </data>
+  <data name="CantChangeColor" xml:space="preserve">
+    <value>Não foi possível alterar cor.</value>
+  </data>
+  <data name="CantRegisterPatient" xml:space="preserve">
+    <value>Não foi possível registar paciente na App</value>
+  </data>
+  <data name="CantValidatePIN" xml:space="preserve">
+    <value>Não foi possível validar PIN</value>
+  </data>
+  <data name="CheckinTime" xml:space="preserve">
+    <value>Hora Check-in</value>
+  </data>
+  <data name="ConfigureTouchID" xml:space="preserve">
+    <value>Proceda à configuração no seu dispositivo e após isso, active o Touch-ID no menu "Definições" da nossa aplicação</value>
+  </data>
+  <data name="CreatingDescendant" xml:space="preserve">
+    <value>A criar descendente...</value>
+  </data>
+  <data name="CreatingPatient" xml:space="preserve">
+    <value>A criar paciente...</value>
+  </data>
+  <data name="DeletingDescendant" xml:space="preserve">
+    <value>A desassociar...</value>
+  </data>
+  <data name="DisableTouchID" xml:space="preserve">
+    <value>Desativar Touch-ID</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="EmailRequired" xml:space="preserve">
+    <value>Campo email é obrigatório</value>
+  </data>
+  <data name="ErrorChangingPass" xml:space="preserve">
+    <value>Erro ao mudar a password</value>
+  </data>
+  <data name="ErrorCreatingDescendant" xml:space="preserve">
+    <value>Erro a criar descendente.</value>
+  </data>
+  <data name="ErrorRefreshingData" xml:space="preserve">
+    <value>Erro a atualizar dados.</value>
+  </data>
+  <data name="FirstLogin" xml:space="preserve">
+    <value>A efetuar primeiro login.</value>
+  </data>
+  <data name="GenderRequired" xml:space="preserve">
+    <value>Campo sexo é obrigatório.</value>
+  </data>
+  <data name="GoToAgenda" xml:space="preserve">
+    <value>Ir para a Agenda</value>
+  </data>
+  <data name="InsertYourPassword" xml:space="preserve">
+    <value>Insira a sua palavra-passe</value>
+  </data>
+  <data name="InvalidData" xml:space="preserve">
+    <value>Dados inválidos</value>
+  </data>
+  <data name="InvalidPass" xml:space="preserve">
+    <value>Palavra-passe inválida</value>
+  </data>
+  <data name="MaximumDescendantAge" xml:space="preserve">
+    <value>Idade máxima dos descendentes é 18 anos.</value>
+  </data>
+  <data name="MustSelectGender" xml:space="preserve">
+    <value>Deve selecionar o género.</value>
+  </data>
+  <data name="NameMinimum" xml:space="preserve">
+    <value>O nome deve conter pelo menos 4 carateres.</value>
+  </data>
+  <data name="NameRequired" xml:space="preserve">
+    <value>Campo nome é obrigatório.</value>
+  </data>
+  <data name="NIFMinimum" xml:space="preserve">
+    <value>O NIF deve conter 9 carateres.</value>
+  </data>
+  <data name="NoAdress" xml:space="preserve">
+    <value>Sem morada</value>
+  </data>
+  <data name="NoConnection" xml:space="preserve">
+    <value>Sem ligação à internet...</value>
+  </data>
+  <data name="NoContact" xml:space="preserve">
+    <value>Sem contacto</value>
+  </data>
+  <data name="NoDate" xml:space="preserve">
+    <value>Sem data</value>
+  </data>
+  <data name="NoFingerprintDetected" xml:space="preserve">
+    <value>Detetámos que ainda não configurou nenhuma impressão digital no seu dispositivo!</value>
+  </data>
+  <data name="NoSchedule" xml:space="preserve">
+    <value>Sem horário</value>
+  </data>
+  <data name="NotNow" xml:space="preserve">
+    <value>Agora não</value>
+  </data>
+  <data name="NotPermissions" xml:space="preserve">
+    <value>Não tem permissões para executar a acção ou a sua sessão expirou.</value>
+  </data>
+  <data name="NotSupportedTimeZone" xml:space="preserve">
+    <value>A timezone do seu dispositivo não é suportada.</value>
+  </data>
+  <data name="PhoneMinimum" xml:space="preserve">
+    <value>O número de telemóvel deve conter pelo menos 9 carateres.</value>
+  </data>
+  <data name="PlaceFingerprint" xml:space="preserve">
+    <value>Coloque o dedo no sensor de impressões digitais para ativar o Touch-ID</value>
+  </data>
+  <data name="ProcedeDeleteDescendant" xml:space="preserve">
+    <value>Ao desassociar este descendente toda a informação referente a este deixará de estar disponível. Deseja prosseguir?</value>
+  </data>
+  <data name="RefreshingData" xml:space="preserve">
+    <value>A atualizar dados...</value>
+  </data>
+  <data name="Request" xml:space="preserve">
+    <value>Pedido</value>
+  </data>
+  <data name="SelectAtLeastOneElement" xml:space="preserve">
+    <value>Deve selecionar pelo menos um elemento</value>
+  </data>
+  <data name="SendingCode" xml:space="preserve">
+    <value>A enviar código de segurança...</value>
+  </data>
+  <data name="ServiceUnav" xml:space="preserve">
+    <value>Serviço indisponível. Por favor volte a tentar mais tarde.</value>
+  </data>
+  <data name="SlotsDay" xml:space="preserve">
+    <value>Vagas para o dia</value>
+  </data>
+  <data name="SlotsTotal" xml:space="preserve">
+    <value>Total vagas</value>
+  </data>
+  <data name="SucessRefreshData" xml:space="preserve">
+    <value>Dados atualizados com sucesso.</value>
+  </data>
+  <data name="SucessTouchID" xml:space="preserve">
+    <value>Touch-ID ativado com sucesso.</value>
+  </data>
+  <data name="TryLaterPass" xml:space="preserve">
+    <value>Não foi possível completar a alteração da password. Por favor tente mais tarde.</value>
+  </data>
+  <data name="UnavailableService" xml:space="preserve">
+    <value>Serviço indisponível...</value>
+  </data>
+  <data name="UnexpetedError" xml:space="preserve">
+    <value>Ocorreu um erro inesperado. Por favor tente mais tarde.</value>
+  </data>
+  <data name="ValidateInternet" xml:space="preserve">
+    <value>Não foi possível executar a acção, por favor valide o seu acesso à internet.</value>
+  </data>
+  <data name="WaitingApproval" xml:space="preserve">
+    <value>Aguardar Validação</value>
+  </data>
+  <data name="WaitingRoom" xml:space="preserve">
+    <value>Deverá aguardar na sala</value>
+  </data>
+  <data name="WantActivateTouchID" xml:space="preserve">
+    <value>Pretende ativar a autenticação por Touch-ID de forma a facilitar o seu acesso à nossa aplicação?</value>
+  </data>
+  <data name="WantToContinue" xml:space="preserve">
+    <value>Pretende Continuar?</value>
+  </data>
+  <data name="WantToValidateData" xml:space="preserve">
+    <value>As suas alterações vão ser encaminhadas para os nossos serviços administrativos para nossa validação. Deseja prosseguir?</value>
+  </data>
+  <data name="WrongPassword" xml:space="preserve">
+    <value>A palavra-passe está errada</value>
+  </data>
+  <data name="Years" xml:space="preserve">
+    <value>Anos</value>
+  </data>
+  <data name="GetFinancialEntitiesCardInformationError" xml:space="preserve">
+    <value>Erro a obter informação/dados do cartão para a EFR.</value>
+  </data>
+  <data name="Idiom" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="French" xml:space="preserve">
+    <value>Français</value>
+  </data>
+  <data name="German" xml:space="preserve">
+    <value>Deutsch</value>
+  </data>
+  <data name="Portuguese" xml:space="preserve">
+    <value>Português</value>
+  </data>
+  <data name="InsertAdress" xml:space="preserve">
+    <value>&lt;inserir morada&gt;</value>
+  </data>
+  <data name="BlockedDescendants" xml:space="preserve">
+    <value>Funcionalidade bloqueada para este descendente.</value>
+  </data>
+  <data name="CompleteRegistry" xml:space="preserve">
+    <value>Para conseguir alterar os seus dados pessoais, deverá completar o seu registo nas nossas clínicas.</value>
+  </data>
+  <data name="ContinueCreatingDescendant" xml:space="preserve">
+    <value>O seu pedido para adicionar um novo descendente vai ser encaminhado para os nossos serviços administrativos para nossa validação. Deseja prosseguir?</value>
+  </data>
+  <data name="DataRequestSend" xml:space="preserve">
+    <value>O seu pedido de alteração de dados foi enviado para os nossos serviços administrativos. Deverá aguardar pela nossa validação.</value>
+  </data>
+  <data name="NameValidator" xml:space="preserve">
+    <value>O nome deve conter pelo menos 4 carateres.</value>
+  </data>
+  <data name="NIFValidator" xml:space="preserve">
+    <value>O NIF deve conter 9 carateres.</value>
+  </data>
+  <data name="PhoneValidator" xml:space="preserve">
+    <value>O número de telemóvel deve conter pelo menos 9 carateres.</value>
+  </data>
+  <data name="ProfileRefreshedDay" xml:space="preserve">
+    <value>A sua ficha foi atualizada no dia </value>
+  </data>
+  <data name="SexValidator" xml:space="preserve">
+    <value>Deve selecionar o género.</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>Localidade</value>
+  </data>
+  <data name="InsertCity" xml:space="preserve">
+    <value>&lt;inserir localidade&gt;</value>
+  </data>
+  <data name="InsertZipCode" xml:space="preserve">
+    <value>&lt;inserir código postal&gt;</value>
+  </data>
+  <data name="ZipCode" xml:space="preserve">
+    <value>Código Postal</value>
+  </data>
+  <data name="Confirmed" xml:space="preserve">
+    <value>Confirmado</value>
+  </data>
+  <data name="Denied" xml:space="preserve">
+    <value>Recusado</value>
+  </data>
+  <data name="Pendent" xml:space="preserve">
+    <value>Pendente</value>
+  </data>
+  <data name="SuccessDeletingDesc" xml:space="preserve">
+    <value>Descendente eliminado com sucesso.</value>
+  </data>
+  <data name="SuccessUpdating" xml:space="preserve">
+    <value>As suas alterações foram encaminhadas com sucesso.</value>
+  </data>
+  <data name="Skip" xml:space="preserve">
+    <value>Avançar</value>
+  </data>
+  <data name="UndefinedAct" xml:space="preserve">
+    <value>Ato indefinido</value>
+  </data>
+  <data name="UndefinedDoctor" xml:space="preserve">
+    <value>Médico indefinido</value>
+  </data>
+  <data name="UndefinedEFR" xml:space="preserve">
+    <value>Acordo indefinido</value>
+  </data>
+  <data name="UndefinedSpecialty" xml:space="preserve">
+    <value>Especialidade indefinida</value>
+  </data>
+  <data name="CouldNotValidateExistingUserEmail" xml:space="preserve">
+    <value>Não foi possível validar se já existe algum utilizador com o email inserido.</value>
+  </data>
+  <data name="ExistingUserEmail" xml:space="preserve">
+    <value>Já existe um utilizador registado com o email inserido.</value>
+  </data>
+  <data name="NotPossibleCreatePacient" xml:space="preserve">
+    <value>Não é possível criar o paciente.</value>
+  </data>
+  <data name="ConfirmDeleteAccount" xml:space="preserve">
+    <value>Para eliminar a sua conta insira a sua palavra passe.</value>
+  </data>
+  <data name="DeleteAccount" xml:space="preserve">
+    <value>Eliminar conta</value>
+  </data>
+  <data name="SuccessDeletedAccount" xml:space="preserve">
+    <value>A sua conta foi eliminada.</value>
+  </data>
+  <data name="ErrorDeletingAcc" xml:space="preserve">
+    <value>Erro a eliminar conta. Por favor tente mais tarde ou contate os serviços administrativos se o erro persistir.</value>
+  </data>
+  <data name="ReadAndAgreeTerms" xml:space="preserve">
+    <value>Li e Aceito os Termos de Utilização da aplicação</value>
+  </data>
+</root>
